@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    background-color: pink;
+    padding: 20px;
+    border: 2px solid black;
+}
+.container div{
+    flex: 1 1 0%;
+    
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    color: blue;
+}
+.container .logo{
+    flex: 2 1 0%;
+    height: 50px;
+    width: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
